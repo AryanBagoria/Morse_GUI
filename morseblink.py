@@ -55,7 +55,7 @@ def led_control(time_sleep):
 
 def led_blink():
     appMessage.value = inputText.value
-    if len(appMessage. value) > 12:
+    if len(appMessage.value) > 12:
         appMessage.value = "Cannot enter more than 12 characters"
     else:
         appMessage.value = appMessage.value + " "
