@@ -79,3 +79,26 @@ ledBlink = PushButton(app, command=led_blink, text ="BLINK LED" ,width = 20)
 app.display()
 
 GPIO.cleanup()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
