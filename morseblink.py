@@ -58,7 +58,7 @@ def led_blink():
     if len(appMessage.value) > 12:
         appMessage.value = "Cannot enter more than 12 characters"
     else:
-        appMessage.value = appMessage.value + " "
+        appMessage.value = appMessage.value 
         word = inputText.value
         word = word.upper ()
         for letter in word:
